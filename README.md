@@ -1,9 +1,11 @@
 # Unicorn Migration
 How a unicorn becomes a brony.  
 
-In progress:  
-Migrate Scuttlebutt to Brony:  
-    Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data  
+<b>In progress:</b>
+<ol>
+    <li>Migrate Scuttlebutt to Brony:</li>
+    <ol>  
+        <li>Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data</li>  
     Scuttlebutt container is up and running.  Configs/src is located at /srv/ssb-server Data is located at /srv/ssb-data
     Needs testing with a scuttlebutt client to test the instance.
     Also needs DNS configured to properly point the domain to this instance.
