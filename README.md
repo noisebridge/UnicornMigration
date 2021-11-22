@@ -1,4 +1,4 @@
-# UnicornMigration
+# Unicorn Migration
 How a unicorn becomes a brony.  
 
 In progress:  
