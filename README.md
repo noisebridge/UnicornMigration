@@ -6,7 +6,7 @@ Migrate Scuttlebutt to Brony
 Migrate Minetest to Brony  
 
 To do:  
-Find stakeholders for services on Unicorn
+Find stakeholders for services on Unicorn  
 Setup Jisti/Matrix with Ansible Matrix Playbook (Matrix/Jisti/Grafana)  
 Migrate Discuss to Brony  
 Clean up Unicorn, update to Debian 11, and take down hanging services, and migrate the remainder of the services that are deemed important.  
