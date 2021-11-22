@@ -29,9 +29,7 @@ How a unicorn becomes a brony.
 - [ ] Wiki rebuild?
 - [ ] Update documentation on brony and unicorn and their current state.
   
-###Complete:
-
-- [ ] Nothing.;0
+### Complete:
 
 
 
