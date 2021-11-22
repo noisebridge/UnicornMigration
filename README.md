@@ -15,3 +15,12 @@ Wiki rebuild?
 Update documentation on brony and unicorn and their current state.  
   
 Complete:  
+
+
+
+
+
+Info:  
+https://www.noisebridge.net/wiki/Unicorn  
+https://www.noisebridge.net/wiki/Brony  
+
