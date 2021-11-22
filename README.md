@@ -1,8 +1,6 @@
 # UnicornMigration
 How a unicorn becomes a brony.  
 
-Current To-do:  
-
 In progress:  
 Migrate Scuttlebutt to Brony  
 Migrate Minetest to Brony  
