@@ -7,8 +7,8 @@ How a unicorn becomes a brony.
 
 - [x] Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data
 - [x] Scuttlebutt container is up and running.  Configs/src is located at /srv/ssb-server Data is located at /srv/ssb-data
-- [ ] Needs testing with a scuttlebutt client to insure instance is running properly.
-- [ ] Needs DNS configured to properly point to this instance.
+- [ ] Test with a scuttlebutt client to insure instance is running properly.
+- [ ] Configure DNS properly to point to instance.
 
 ### Migrate Minetest to Brony:
 
