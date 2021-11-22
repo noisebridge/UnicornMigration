@@ -25,7 +25,7 @@ How a unicorn becomes a brony.
 - [ ] Sort out DNS issues
 - [ ] Migrate the remainder of the services that are deemed important
 - [ ] Clean up Unicorn, update to Debian 11, and take down hanging services
-- [ ] Identify issues, and update donate page that lists proper options.
+- [ ] Identify issues, and update donate page that lists proper options.  https://donate.noisebridge.net/
 - [ ] Wiki rebuild?
 - [ ] Update documentation on brony and unicorn and their current state.
   
