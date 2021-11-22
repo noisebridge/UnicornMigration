@@ -1,8 +1,6 @@
 # Unicorn Migration
 How a unicorn becomes a brony.  
 
-<b>In progress:</b>
-
 ### Migrate Scuttlebutt to Brony:
 
 - [x] Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data
