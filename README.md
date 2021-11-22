@@ -11,7 +11,7 @@ Setup Jisti/Matrix with Ansible Matrix Playbook (Matrix/Jisti/Grafana)
 Migrate Discuss to Brony  
 Clean up Unicorn, update to Debian 11, and take down hanging services, and migrate the remainder of the services that are deemed important.  
 Identify issues, and update donate page that lists proper options.  
-Wiki rebuild?
-Update documentation on brony and unicorn and their current state.
+Wiki rebuild?  
+Update documentation on brony and unicorn and their current state.  
   
 Complete:  
