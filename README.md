@@ -8,7 +8,7 @@ How a unicorn becomes a brony.
         <li>Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data</li>  
     <li>Scuttlebutt container is up and running.  Configs/src is located at /srv/ssb-server Data is located at /srv/ssb-data</li>
         <li>Needs testing with a scuttlebutt client to insure instance is running properly.</li>
-        <li>Needs DNS configured to properly point the domain to this instance.</li>
+        <li>Needs DNS configured to properly point to this instance.</li>
     </ol>
 </ol><br>
 <ol>
