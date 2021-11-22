@@ -3,15 +3,15 @@ How a unicorn becomes a brony.
 
 In progress:  
 Migrate Scuttlebutt to Brony:  
-  Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data  
-  Scuttlebutt container is up and running.  Configs/src is located at /srv/ssb-server Data is located at /srv/ssb-data
-  Needs testing with a scuttlebutt client to test the instance.
-  Also needs DNS configured to properly point the domain to this instance.
+    Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data  
+    Scuttlebutt container is up and running.  Configs/src is located at /srv/ssb-server Data is located at /srv/ssb-data
+    Needs testing with a scuttlebutt client to test the instance.
+    Also needs DNS configured to properly point the domain to this instance.
 Migrate Minetest to Brony  
-  Data was migrated with rsync to /home/noisebridge/minetest-backup  
-  Minetest setup information for Docker -> https://github.com/minetest/minetest#docker  
-  Test server instance with client  
-  Configure DNS  
+    Data was migrated with rsync to /home/noisebridge/minetest-backup  
+    Minetest setup information for Docker -> https://github.com/minetest/minetest#docker  
+    Test server instance with client  
+    Configure DNS  
 To do:  
 Find stakeholders for services on Unicorn  
 Setup Jisti/Matrix with Ansible Matrix Playbook (Matrix/Jisti/Grafana)  
