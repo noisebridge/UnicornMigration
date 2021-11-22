@@ -17,7 +17,7 @@ How a unicorn becomes a brony.
 - [ ] Test server instance with client
 - [ ] Configure DNS
 
-###To do:
+### To do:
 
 - [ ] Find stakeholders for services on Unicorn
 - [ ] Setup Jisti/Matrix with Ansible Matrix Playbook (Matrix/Jisti/Grafana)
