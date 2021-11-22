@@ -20,8 +20,8 @@ How a unicorn becomes a brony.
         <li>Configure DNS</li>
     </ol>
 </ol><br>
-To do:  
-Find stakeholders for services on Unicorn  
+To do:<br>
+Find stakeholders for services on Unicorn
 Setup Jisti/Matrix with Ansible Matrix Playbook (Matrix/Jisti/Grafana)  
 Migrate Discuss to Brony
 Sort out DNS issues
@@ -30,10 +30,7 @@ Identify issues, and update donate page that lists proper options.
 Wiki rebuild?  
 Update documentation on brony and unicorn and their current state.  
   
-Complete:  
-
-<ol> <li>First item</li> <li>Second item</li> <li>Third item <ol> <li>Indented item</li> <li>Indented item</li> </ol> </li> <li>Fourth item</li> </ol>
-
+Complete:
 
 
 Info:  
