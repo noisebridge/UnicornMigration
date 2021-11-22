@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+
+  scuttlebutt:
+    build: .
+    ports:
+      - "0.0.0.0:8008:8008"
+    volumes:
+    - ../ssb-data:/root/.ssb/
+    init: true
+    entrypoint: npm run start
