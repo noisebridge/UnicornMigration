@@ -21,6 +21,8 @@ docker pull - https://docs.docker.com/engine/reference/commandline/pull/
 <br>docker images - List the images present on system
 <br>docker stop "Container ID" - Bring down a container
 <br>docker rm(i) "Image/Container ID" - Remove a container with rm and images with rmi
+<br>docker exec -it "container ID" - Log into a running container.  It probably doesn't have nano, or vim, or even bash.  GLHF.
+<br>docker stats - lists the current cpu/memory usage of all containers.
 
 If your really lazy you can use these bash alias, which do very powerful things very easily.  You have been warned.
 
