@@ -15,12 +15,12 @@ Good luck understanding the versioning system...  I think it doesn't actually ma
 If your too lazy to compile your own containers from source ->  https://hub.docker.com/
 
 Docker commands:
-
+<br>
 docker pull - https://docs.docker.com/engine/reference/commandline/pull/
-docker images - List the images present on system
-docker ps (-a) - https://docs.docker.com/engine/reference/commandline/ps/
-docker stop "Container ID" - Bring down a container
-docker rm(i) "Image/Container ID" - Remove a container with rm and images with rmi
+<br>docker images - List the images present on system
+<br>docker ps (-a) - https://docs.docker.com/engine/reference/commandline/ps/
+<br>docker stop "Container ID" - Bring down a container
+<br>docker rm(i) "Image/Container ID" - Remove a container with rm and images with rmi
 
 If your really lazy you can use these bash alias, which do very powerful things very easily.  You have been warned.
 
