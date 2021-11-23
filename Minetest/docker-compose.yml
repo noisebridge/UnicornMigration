@@ -3,17 +3,15 @@ version: "2.1"
 services:
 
   minetest:
-    image: registry.gitlab.com/minetest/minetest/server:latest
+    image: registry.gitlab.com/minetest/minetest/server:master
     container_name: minetest
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
     volumes:
-#      - /srv/minetest/config/:/config/.minetest/
-      - /srv/minetest/data/:/var/lib/minetest/
-      - /srv/minetest/conf/:/etc/minetest/
-
+      - /srv/minetest-data/:/var/lib/minetest/
+      - /srv/minetest-client/conf/:/etc/minetest/
     ports:
       - 30000:30000/udp
     restart: unless-stopped
