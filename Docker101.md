@@ -26,7 +26,9 @@ If your really lazy you can use these bash alias, which do very powerful things 
 
 #Deletes all stopped docker containers.  
 alias dokremove='docker rm $(docker ps -a -q)'  
+
 #Remove all unused images not just dangling ones. also it will remove all build cache  
 alias dokprune='docker system prune -a'  
+
 #Fancy formatting of running containers  
 alias dokps="docker ps --format '{{.ID}} ~ {{.Names}} ~ {{.Status}} ~ {{.Image}}'"  
