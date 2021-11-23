@@ -17,8 +17,8 @@ If your too lazy to compile your own containers from source ->  https://hub.dock
 Docker commands:
 <br>
 docker pull - https://docs.docker.com/engine/reference/commandline/pull/
-<br>docker images - List the images present on system
 <br>docker ps (-a) - https://docs.docker.com/engine/reference/commandline/ps/
+<br>docker images - List the images present on system
 <br>docker stop "Container ID" - Bring down a container
 <br>docker rm(i) "Image/Container ID" - Remove a container with rm and images with rmi
 
