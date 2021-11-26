@@ -2,7 +2,8 @@ So in order to get this to start properly you need to create the data directory 
 
 See here ---> 
 
-https://github.com/minetest/minetest/blob/master/Dockerfile#L61
+https://github.com/minetest/minetest/blob/master/Dockerfile#L60
+
 ```Dockerfile
 RUN apk add --no-cache sqlite-libs curl gmp libstdc++ libgcc libpq luajit jsoncpp zstd-libs && \
 	adduser -D minetest --uid 30000 -h /var/lib/minetest && \
