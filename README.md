@@ -11,7 +11,7 @@ How a unicorn becomes a brony.
 ### Migrate Minetest to Brony:
 
 - [x] Data was migrated with rsync to /home/noisebridge/minetest-backup
-- [ ] Minetest setup information for Docker -> https://github.com/minetest/minetest#docker
+- [X] Minetest setup information for Docker -> https://github.com/minetest/minetest#docker
 - [ ] Test server instance with client
 - [ ] Configure DNS
 
