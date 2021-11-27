@@ -1,0 +1,80 @@
+{
+  "checkers": [
+    {
+      "type": "http",
+      "endpoint_name": "Discourse HTTP (by <@tdfischer>)",
+      "endpoint_url": "https://discuss.noisebridge.info/",
+      "must_contain": "We are noisebridge"
+    },
+    {
+      "type": "tcp",
+      "endpoint_name": "Discourse Mail Receiver (by <@tdfischer>)",
+      "endpoint_url": "localhost:2533"
+    },
+    {
+      "type": "http",
+      "endpoint_name": "HTTP: Unicorn homepage (by <@elimisteve>)",
+      "endpoint_url": "https://noisebridge.info/",
+      "must_contain": "noisebridge"
+    },
+    {
+      "type": "http",
+      "endpoint_name": "HTTP: Wiki (notifying <@Rando>)",
+      "endpoint_url": "https://www.noisebridge.net/wiki/Noisebridge",
+      "must_contain": "<title>Noisebridge</title>"
+    },
+    {
+      "type": "tls",
+      "endpoint_name": "Wiki (TLS check) (notifying <@Rando>)",
+      "endpoint_url": "noisebridge.net:443"
+    },
+
+    {
+      "type": "http",
+      "endpoint_name": "HTTP: Minio instance for Noisebridge (by <@elimisteve>)",
+      "endpoint_url": "https://minio.noisebridge.info/minio/login",
+      "headers": {"User-Agent": ["Mozilla"]},
+      "must_contain": "<title>Minio Browser</title>"
+    },
+
+    {
+      "type": "http",
+      "endpoint_name": "HTTP: LeapChat (by <@elimisteve>)",
+      "endpoint_url": "https://leapchat.noisebridge.info/",
+      "must_contain": "/notification_gertz.wav"
+    },
+    {
+      "type": "http",
+      "endpoint_name": "HTTP: Effective (by <@elimisteve>)",
+      "endpoint_url": "https://effective.noisebridge.info/",
+      "must_contain": "<title>Effective</title>"
+    },
+
+    {
+      "type": "http",
+      "endpoint_name": "HTTP: Noisebridge Parts Search (notifying <@broccoli>, <@hzeller>)",
+      "endpoint_url": "https://parts.noisebridge.net/",
+      "must_contain": "<title>Noisebridge Parts search</title>"
+    },
+
+    {
+      "type": "http",
+      "endpoint_name": "HTTP: Noisebridge Library (notifying <@robbintt>)",
+      "endpoint_url": "https://library.noisebridge.net/index/1/",
+      "must_contain": "<title>Library @ Noisebridge</title>"
+    }
+  ],
+
+  "storage": {
+    "provider": "fs",
+    "dir": "/var/www/localhost/htdocs/data",
+    "url": "https://status.noisebridge.info/checks"
+  },
+
+  "notifier": {
+    "name": "slack",
+    "username": "status-bot",
+    "channel": "#unicorn",
+    "webhook": "https://hooks.slack.com/services/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"
+  }
+}
