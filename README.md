@@ -15,6 +15,15 @@ How a unicorn becomes a brony.
 - [ ] Test server instance with client
 - [ ] Configure DNS
 
+### Migrate Checkup to Brony:
+
+- [X] Data was migrated to /home/noisebridge/services/checkup/{config,status_checks}
+- [X] Build Dockerfile/docker-compose.yml for Checkup service. 
+- [X] Setup docker image "checkup".
+- [X] Verify old data and configs are successfully loaded in [new service](http://199.241.139.224:8021/index.html).
+- [ ] Verify output approximately matches [old service](https://status.noisebridge.info/) over an extended period of time (24h) 
+- [ ] Configure DNS
+
 ### To do:
 
 - [ ] Find stakeholders for services on Unicorn
