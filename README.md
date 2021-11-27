@@ -26,6 +26,8 @@ How a unicorn becomes a brony.
 - [ ] Identify issues, and update donate page that lists proper options.  https://donate.noisebridge.net/
 - [ ] Wiki rebuild?
 - [ ] Update documentation on brony and unicorn and their current state.
+- [ ] Setup Ergo chat(irc server)
+- [ ] Setup matrix(synapse)
   
 ### Complete:
 
