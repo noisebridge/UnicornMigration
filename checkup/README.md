@@ -4,6 +4,6 @@
 
 # Configuration
 
-## config.checkup.json
+## config/checkup.json
 
 ## config/config.js 
