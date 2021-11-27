@@ -29,6 +29,7 @@ How a unicorn becomes a brony.
   
 ### Complete:
 
+- [x] Jitsi setup.  Located at /srv/jitsi
 
 
 
