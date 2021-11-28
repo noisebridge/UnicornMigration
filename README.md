@@ -10,7 +10,6 @@ For the intended server design/layout.
 - [x] Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data
 - [x] Scuttlebutt container is up and running.  Configs/src is located at /srv/ssb-server Data is located at /srv/ssb-data
 - [ ] Test with a scuttlebutt client to insure instance is running properly.
-
 - [ ] Test server instance with client
 
 ### Migrate Checkup to Brony:
@@ -42,24 +41,6 @@ For the intended server design/layout.
 - [ ] Update documentation on brony and unicorn and their current state.
 - [ ] Setup Ergo chat(irc server)
 - [ ] Setup matrix(synapse)
-  
-### Complete:
-
-
-### Migrate Scuttlebutt to Brony:
-
-- [x] Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data
-- [x] Scuttlebutt container is up and running.  Configs/src is located at /srv/ssb-server Data is located at /srv/ssb-data
-- [ ] Test with a scuttlebutt client to insure instance is running properly.
-
-- [ ] Test server instance with client
-
-### Migrate Checkup to Brony:
-
-- [X] Data was migrated to /home/noisebridge/services/checkup/{config,status_checks}
-- [X] Build Dockerfile/docker-compose.yml for Checkup service. 
-- [X] Setup docker image "checkup".
-- [X] Verify old data and configs are successfully loaded in [new service](http://199.241.139.224:8021/index.html).
 
 
 Info:  
