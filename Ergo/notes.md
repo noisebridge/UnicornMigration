@@ -1,5 +1,3 @@
-https://hub.docker.com/r/ergochat/ergo
-
 https://github.com/ergochat/ergo
 
 Updated/current setup instructions: <br>
