@@ -42,7 +42,9 @@ For the intended server design/layout.
 
 ### Complete:
 
-- [x] -Find stakeholders for services on Unicorn //defunct
+- [x] -Find stakeholders for services on Unicorn //defunct  
+
+
 Info:  
 https://www.noisebridge.net/wiki/Unicorn  
 https://www.noisebridge.net/wiki/Brony  
