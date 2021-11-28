@@ -5,6 +5,13 @@ If you are interested in contributing please see
 https://github.com/noisebridge/UnicornMigration/blob/main/design.md  
 For the intended server design/layout.
 
+### Test/Configure
+
+- [ ] Test and config Scuttlebutt
+- [ ] Test and config Minetest
+- [ ] Test the jitsi instance to ensure the configs are correct
+- [ ] Write the configs for ErgoChat
+
 ### Migrate Scuttlebutt to Brony:
 
 - [x] Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data
@@ -19,14 +26,6 @@ For the intended server design/layout.
 - [X] Setup docker image "checkup".
 - [X] Verify old data and configs are successfully loaded in [new service](http://199.241.139.224:8021/index.html).
 - [ ] Verify output approximately matches [old service](https://status.noisebridge.info/) over an extended period of time (24h)
-
-### Test/Configure
-
-- [ ] Test and config Scuttlebutt
-- [ ] Test and config Minetest
-- [ ] Test the jitsi instance to ensure the configs are correct
-- [ ] Write the configs for ErgoChat
-
 
 ### To do:
 
