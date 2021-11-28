@@ -2,6 +2,10 @@ https://hub.docker.com/r/ergochat/ergo
 
 https://github.com/ergochat/ergo
 
+Updated/current setup instructions: <br>
+https://github.com/ergochat/ergo/blob/0344e99bc6b0d237a216cca14d7b2cdc2d8de94c/distrib/docker/README.md
+
+
 noisebridge@alpine-unicorn:~/SenoraRaton/UnicornMigration/Ergo$ docker run ergochat/ergo
 Oper username:password is admin:114LDu1YVKB_-S6m6cui
 2021/11/27 00:41:16 making self-signed certificates
