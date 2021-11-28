@@ -20,7 +20,8 @@ Oper username:password is admin:114LDu1YVKB_-S6m6cui
 2021-11-27T00:41:17.200Z : info  : server     : Server running
 
 
-To test the server instance use: openssl s_client -connect hostname:6697  
+To test the server instance use:  
+openssl s_client -connect hostname:6697  
 and then ---> cap ls 302  
 Once connected from the remote machine.
 
