@@ -25,6 +25,13 @@ For the intended server design/layout.
 - [ ] Write docker-compose.yml file for ergochat
 - [ ] Configure ergochat properly
 
+### Migrate Minetest to Brony:
+
+- [x] Data was migrated with rsync to /home/noisebridge/minetest-backup
+- [x] Minetest setup information for Docker -> https://github.com/minetest/minetest#docker
+- [ ] Test server instance with client
+
+
 ### Migrate Scuttlebutt to Brony:
 
 - [x] Data transfer completed.  Backup data is at /home/noisebridge/unicorn-ssb-pub-data
