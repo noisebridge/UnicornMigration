@@ -1,7 +1,7 @@
 Required reading before going further:<br>
 https://en.wikipedia.org/wiki/Sisyphus<br>
 
-So theoretically we should attempt to have an orginization scheme our server, to make it easier to identify what is running, and also maintain said server.  
+So theoretically we should attempt to have an orginization scheme our server, to make it easier to identify what is running, and also maintain.
 This document outlines our current design philosophy, its completly ad hoc, and should be changed at any time, for any reason.  
 
 Since this repo is the Brony server repo, ideally anyone with access to the server should also be added as a collaborator on this repo.  
