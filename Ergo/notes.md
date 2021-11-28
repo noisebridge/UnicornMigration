@@ -25,5 +25,5 @@ To test the server instance use:
 openssl s_client -connect hostname:6697  
 cap ls 302  
 ```
-Once connected from the remote machine.
+To connect to the server instance, and then test said connection.
 
