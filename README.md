@@ -1,5 +1,9 @@
 # Unicorn Migration
-How a unicorn becomes a brony.  
+How a unicorn becomes a brony.
+
+If you are interested in contributing please see  
+https://github.com/noisebridge/UnicornMigration/blob/main/design.md  
+For the intended server design/layout.
 
 ### Migrate Scuttlebutt to Brony:
 
