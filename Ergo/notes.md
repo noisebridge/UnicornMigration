@@ -21,7 +21,9 @@ Oper username:password is admin:114LDu1YVKB_-S6m6cui
 
 
 To test the server instance use:  
+```bash  
 openssl s_client -connect hostname:6697  
-and then ---> cap ls 302  
+cap ls 302  
+```
 Once connected from the remote machine.
 
