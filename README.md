@@ -30,7 +30,6 @@ For the intended server design/layout.
 ### To do:
 
 - [ ] **DNS**
-- [ ] Find stakeholders for services on Unicorn
 - [ ] Setup Jisti/Matrix with Ansible Matrix Playbook (Matrix/Jisti/Grafana)
 - [ ] Migrate Discuss to Brony
 - [ ] Migrate the remainder of the services that are deemed important
@@ -41,7 +40,9 @@ For the intended server design/layout.
 - [ ] Setup Ergo chat(irc server)
 - [ ] Setup matrix(synapse)
 
+### Complete:
 
+- [x] -Find stakeholders for services on Unicorn //defunct
 Info:  
 https://www.noisebridge.net/wiki/Unicorn  
 https://www.noisebridge.net/wiki/Brony  
