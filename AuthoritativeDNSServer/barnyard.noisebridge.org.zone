@@ -1,0 +1,13 @@
+$TTL    86400
+@       IN      SOA     ns.barnyard.noisebridge.org. root.barnyard.noisebridge.org. (
+                              1         ; Serial
+                           1200         ; Refresh
+                           1200         ; Retry
+                          86400         ; Expire
+                          86400 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.barnyard.noisebridge.org.
+ns      IN      A       199.241.139.224
+
+; Put hosts here... this example will resolve test.barnyard.noisebridge.org to 1.2.3.4
+test     IN      A       1.2.3.4
