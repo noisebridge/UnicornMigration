@@ -1,13 +1,12 @@
 $TTL    86400
-@       IN      SOA     ns.barnyard.noisebridge.net. root.barnyard.noisebridge.net. (
-                              1         ; Serial
+@       IN      SOA     brony.noisebridge.io. root.barnyard.noisebridge.net. (
+                              2         ; Serial (You must increment this number each time you change this file!)
                            1200         ; Refresh
                            1200         ; Retry
                           86400         ; Expire
                           86400 )       ; Negative Cache TTL
 ;
-@       IN      NS      ns.barnyard.noisebridge.net.
-ns      IN      A       199.241.139.224
+@       IN      NS      brony.noisebridge.io.
 
 ; Put hosts here... this example will resolve test.barnyard.noisebridge.net to 1.2.3.4
 test     IN      A       1.2.3.4
