@@ -11,3 +11,4 @@ $TTL    86400
 ; Put hosts here... this example will resolve test.barnyard.noisebridge.io to 1.2.3.4
 test     IN      A       1.2.3.4
 bloodblaze IN CNAME brony.noisebridge.io.
+jitsi in CNAME brony.noisebridge.io.
