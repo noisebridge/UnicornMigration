@@ -1,6 +1,6 @@
 $TTL    86400
 @       IN      SOA     brony.noisebridge.io. root.barnyard.noisebridge.io. (
-                              2         ; Serial (You must increment this number each time you change this file!)
+                              3         ; Serial (You must increment this number each time you change this file!)
                            1200         ; Refresh
                            1200         ; Retry
                           86400         ; Expire
@@ -10,3 +10,4 @@ $TTL    86400
 
 ; Put hosts here... this example will resolve test.barnyard.noisebridge.io to 1.2.3.4
 test     IN      A       1.2.3.4
+bloodblaze IN CNAME brony.noisebridge.io.
